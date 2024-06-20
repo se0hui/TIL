@@ -46,20 +46,25 @@
     - DispatcherServlet를 Front Controller라고 부르기도 함
     - HTTPServlet을 상속받아 사용, 서블릿으로 동작
 <br>
+
 - **HanderMapping**
     - 클라이언트의 요청 URL을 어떤 컨트롤러가 처리할지 결정하는 기능
 <br>
+
 - **Controller**
     - 클라이언트의 요청을 처리한 뒤, 결과를 리턴함
     - 응답 결과에서 보여줄 데이터를 Model에 담아 전달
     - 이후 Model은 handlerAdpater에 의해 ModelAndView로 변환
 <br>
+
 - **ModelAndView**
     - Contoroller에서 처리한 결과 정보 및 View 선택에 필요한 정보를 담음
 <br>
+
 - **ViewResolver**
     - ModelAndView를 전달받은 DispatcherServlet이 실제 클라이언트에게 보여질 view를 렌더링하기 위해, 어떤 view 객체를 사용할지 결정하기 위하여 ViewResolver를 호출
 <br>
+
 - **View**
     - ViewResolver에 의하여 View 객체가 결정되고 해당 객체를 통해 View를 렌더링 함
 <br><br>
