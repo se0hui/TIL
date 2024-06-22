@@ -290,7 +290,6 @@ API 명세는 협업 시, 프론트와 백엔드가 잘 협업하여 설계하�
 ) - tistory
 
 [REST API 제대로 알고 사용하기
-](https://meetup.nhncloud.com/posts/92)
-- NHN Cloud Meetup
+](https://meetup.nhncloud.com/posts/92) - NHN Cloud Meetup
 
-[[네트워크]REST API란? REST, RESTful이란?](https://khj93.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-REST-API%EB%9E%80-REST-RESTful%EC%9D%B4%EB%9E%80#google_vignette)
+[[네트워크]REST API란? REST, RESTful이란?](https://khj93.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-REST-API%EB%9E%80-REST-RESTful%EC%9D%B4%EB%9E%80#google_vignette) - tistory
