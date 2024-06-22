@@ -276,8 +276,21 @@ REST의 원리를 따르는 시스템
 
 API를 개발할 때에는 PATH 방법과 Query 방법을 필요에 따라 적절하게 사용하고, 데이터 요청 시 API 명세에 따르도록 해야 함
 API 명세는 협업 시, 프론트와 백엔드가 잘 협업하여 설계하도록 함
+<br><br>
 
 
 
 
+---
+#### 자료 출처
+[[Spring] 스프링 MVC 패턴에 대해 알아봅시다.
+](https://velog.io/@choidongkuen/Spring-MVC-%ED%8C%A8%ED%84%B4%EC%97%90-%EB%8C%80%ED%95%B4-%EC%95%8C%EC%95%84%EB%B4%85%EC%8B%9C%EB%8B%A4) - velog
 
+[[Spring MVC] 스프링 MVC란 무엇인가? - 스프링 MVC 구조 이해](https://ittrue.tistory.com/234
+) - tistory
+
+[REST API 제대로 알고 사용하기
+](https://meetup.nhncloud.com/posts/92)
+- NHN Cloud Meetup
+
+[[네트워크]REST API란? REST, RESTful이란?](https://khj93.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-REST-API%EB%9E%80-REST-RESTful%EC%9D%B4%EB%9E%80#google_vignette)
