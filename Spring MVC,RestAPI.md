@@ -200,15 +200,15 @@ REST의 원리를 따르는 API
 ### REST API 설계 예시
 ---
    1. URI는 동사보다 명사를, 대문자보다는 소문자를 사용
-  >Bad Example http://khj93.com/Running/
-  Good Example  http://khj93.com/run/
+  > Bad Example http://khj93.com/Running/
+  > Good Example  http://khj93.com/run/
 
 <br>
 
 
   2. 마지막에 슬래시가 없음
   
-  >Bad Example http://khj93.com/test/  
+  > Bad Example http://khj93.com/test/  
   > Good Example  http://khj93.com/test
   >> 슬래시 구분자는 계층 관계를 나타내는데 사용됨 
 
@@ -216,21 +216,21 @@ REST의 원리를 따르는 API
 
 
   3. 언더바 대신 하이픈 사용
-  >Bad Example http://khj93.com/test_blog
-  >Good Example  http://khj93.com/test-blog  
+  > Bad Example http://khj93.com/test_blog
+  > Good Example  http://khj93.com/test-blog  
   >> 하이픈은 가독성을 높이는데 사용됨
 
 <br>
 
 
   4. 파일확장자는 URI에 미포함
-  >Bad Example http://khj93.com/photo.jpg  
-  >Good Example  http://khj93.com/photo  
+  > Bad Example http://khj93.com/photo.jpg  
+  > Good Example  http://khj93.com/photo  
 
 <br>
 
   5. 행위를 포함하지 않음
-  >Bad Example http://khj93.com/delete-post/1  
+  > Bad Example http://khj93.com/delete-post/1  
   > Good Example  http://khj93.com/post/1  
 
 <br>
