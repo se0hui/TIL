@@ -140,6 +140,7 @@ Representational State Reansfer의 약자
    **1. Server-Clinent(서버-클라이언트 구조)**
     - REST 서버는 API 제공, 클라이언트는 사용자 인증이나 컨텍스트 등을 직접 관리하는 구조로 각각의 역할이 확실히 구분 됨
     - 클라이언트와 서버에서 개발해야 할 내용이 명확해지고 서로간 의존성이 줄어들게 됨
+    
 <br>
 
    **2. Stateless(무상태)**
