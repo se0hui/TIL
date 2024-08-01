@@ -24,8 +24,8 @@ long l = i; // 묵시적 형변환 (int -> long)
 예시
 
 ```java
-int i = 100;
-long l = i; // 묵시적 형변환 (int -> long)
+long l = 100L;
+int i = (int) l; // 명시적 형변환 (long -> int)
 ```
 
 <br>
