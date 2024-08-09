@@ -8,6 +8,21 @@
 
 '@Bean'을 사용하면 개발자가 빈의 생성 과정을 더 세밀하게 관리할 수 있다.
 
+<br>
+
+```java
+@Configuration
+public class MyConfig {
+
+    @Bean
+    public MyService myService() {
+        return new MyService();
+    }
+}
+```
+
+<br><br>
+
 ## Component
 
 @Component는 해당 클래스를 스프링의 빈으로 등록한다.
@@ -15,6 +30,17 @@
 @Component는 자동으로 스캔되어 빈으로 등록되고, 스프링의 의존성 주입 기능을 통해 다른 객체에 주입될 수 있다.
 
 주로 클래스에 붙는 어노테이션으로 간단하게 빈을 생성할 때 사용된다.
+
+<br>
+
+```java
+@Component
+public class MyComponent {
+    public void doSomething() { }
+}
+```
+
+<br><br>
 
 ## Bean과 Component의 차이점
 
