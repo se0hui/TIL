@@ -21,7 +21,7 @@ public class MyConfig {
 }
 ```
 
-<br><br>
+<br>
 
 ## Component
 
@@ -41,7 +41,7 @@ public class MyComponent {
 }
 ```
 
-<br><br>
+<br>
 
 ## Bean과 Component의 차이점
 
